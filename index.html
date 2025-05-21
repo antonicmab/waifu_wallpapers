@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NEON-GRID // Киберпанк Галерея</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="scanlines"></div>
+    
+    <header>
+        <h1 class="glitch">NEON-GRID</h1>
+        <div class="subtitle">Киберпанк Галерея // Доступ к хранилищу изображений</div>
+        
+        <div class="terminal">
+            <div class="terminal-text">
+                > Загрузка системы... УСПЕХ<br>
+                > Подключение к серверу... УСПЕХ<br>
+                > Получение данных... УСПЕХ<br>
+                > Готов к отображению <span class="blink">_</span>
+            </div>
+        </div>
+    </header>
+    
+    <div class="grid-container" id="imageGrid"></div>
+    
+    <div class="status-bar">
+        <div class="status-item">СИСТЕМА: ONLINE</div>
+        <div class="status-item">ИЗОБРАЖЕНИЙ: <span id="imageCount">0</span></div>
+        <div class="status-item">ВЕРСИЯ: 2.3.7</div>
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>
